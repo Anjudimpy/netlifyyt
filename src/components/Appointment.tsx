@@ -62,7 +62,7 @@ placeholder='Enter Message'
             
            </div>
         </div>
-        <div data-aos="fade-left"  data-aos-duration="500" className=' py-[44px] outline outline-1 outline-slate-500 rounded-md  h-[425px] w-[32%] '>
+        <div data-aos="flip-left" data-aos-duration="2000"   data-aos-easing="ease-out-cubic"  className=' py-[44px] outline outline-1 outline-slate-500 rounded-md  h-[425px] w-[32%] '>
             <span className='flex items-center justify-center '>
 <FaUserTie className='items-center border text-amp_red p-1 bg-white border-amp_red rounded-full  h-[120px] w-[120px] animate-bounce transition-transform ease-in-out duration-100 justify-center text-[30px]'/>
             </span>

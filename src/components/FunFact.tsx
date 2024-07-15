@@ -17,22 +17,26 @@ const FunFact = () => {
         </div>
 
         <div className='flex absolute mt-[15rem] px-[6.8rem] text-center justify-center grid-cols-1 gap-40 text-white'>
-            <div className='group font-bold'><FaHeartbeat className='text-amp_red text-[5rem] ml-16 group-hover:scale-x-90 group-hover:animate-bounce transition duration-300'/>
+            <div data-aos="fade-up"  data-aos-duration="1000"
+     className='group font-bold'><FaHeartbeat className='text-amp_red text-[5rem] ml-16 group-hover:scale-x-90 group-hover:animate-bounce transition duration-300'/>
             <span className='text-white text-[2rem]'>300+</span><br></br>
             <span className='text-white text-[1.5rem]'>Satisfied Customers</span>
             </div>
 
-            <div className='group font-bold'><AiFillProduct className='text-amp_red text-[5rem] ml-12 group-hover:animate-bounce'/>
+            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+            className='group font-bold'><AiFillProduct className='text-amp_red text-[5rem] ml-12 group-hover:animate-bounce'/>
             <span className='text-white text-[2rem]'>150+</span><br></br>
             <span className='text-white text-[1.5rem]'>Product Section</span>
             </div>
 
-             <div className='group font-bold'><RiServiceFill className='text-amp_red text-[5rem] ml-11 group-hover:animate-bounce '/>
+             <div data-aos="flip-left" data-aos-duration="2000"   data-aos-easing="ease-out-cubic"
+              className='group font-bold'><RiServiceFill className='text-amp_red text-[5rem] ml-11 group-hover:animate-bounce '/>
             <span className='text-white text-[2rem]'>30+</span><br></br>
             <span className='text-white text-[1.5rem]'>Kind Of Services</span>
             </div>
 
-            <div className='group font-bold'><GiTrophyCup className='text-amp_red text-[5rem] ml-11 group-hover:animate-bounce'/>
+            <div data-aos="flip-right" data-aos-duration="4000"   data-aos-easing="ease-out-cubic"
+            className='group font-bold'><GiTrophyCup className='text-amp_red text-[5rem] ml-11 group-hover:animate-bounce'/>
             <span className='text-white text-[2rem]'>100+</span><br></br>
             <span className='text-white text-[1.5rem]'>Awards Winning</span>
             </div>
