@@ -93,10 +93,10 @@ const Footer = () => {
 
         <span className='md:py-0 lg:py-0 xl:py-0'>
        <span className=''>
-       {/* <h1 className="group  text-2xl text-amp_red border-b-amp_red transition duration-500 hover:text-lime-200">
-  We're Available
+       <span className="group  text-2xl text-amp_red border-b-amp_red transition duration-500 hover:text-lime-200">
+  We are Available
   <hr className="w-40 mb-7 mt-1 border-t-2  border-amp_red transition duration-500 group-hover:border-lime-200" />
-</h1> */}
+</span>
        </span>
       <span className='hidden xl:inline md:inline lg:inline'>
        <span className='flex py-1 items-center justify-between text-[18px]'>

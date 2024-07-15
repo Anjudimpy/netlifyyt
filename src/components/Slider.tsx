@@ -22,14 +22,15 @@ const Slider = () => {
       : setActiveImage(activeImage - 1);
   };
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     clickNext();
-  //   }, 5000);
-  //   return () => {
-  //     clearTimeout(timer);
-  //   };
-  // }, [activeImage]);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      clickNext();
+    }, 5000);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [activeImage, clickNext]); 
+  
 
   return (
     <div className="place-items-center w-full h-full ">
