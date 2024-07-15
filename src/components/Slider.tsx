@@ -22,14 +22,14 @@ const Slider = () => {
       : setActiveImage(activeImage - 1);
   };
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      clickNext();
-    }, 5000);
-    return () => {
-      clearTimeout(timer);
-    };
-  }, [activeImage]);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     clickNext();
+  //   }, 5000);
+  //   return () => {
+  //     clearTimeout(timer);
+  //   };
+  // }, [activeImage]);
 
   return (
     <div className="place-items-center w-full h-full ">
@@ -74,17 +74,13 @@ const Slider = () => {
         ))}
         <div className="p-0 absolute w-full  top-16">
           <Description
-            activeImgIndex={activeImage}
-            clickNext={clickNext}
-            clickPrev={clickPrev}
+            activeImgIndex={activeImage} clickNext={undefined} clickPrev={undefined}   
           />
         </div>
     
       </div>
 
-     
-      {/* <Particle/> */}
-
+    
     </div>
   );
 };

@@ -1,10 +1,9 @@
 
 import React from 'react'
-import Particle from './Particle'
 import Image from 'next/image'
 import logo from '../../images/ameee/amplogo.png';
 import { FaLocationDot, FaRegCopyright } from 'react-icons/fa6';
-import { MdAccessTime, MdOutlineAccessTime } from 'react-icons/md';
+import { MdAccessTime} from 'react-icons/md';
 import { IoIosArrowForward, IoMdMail } from 'react-icons/io';
 import { CiDeliveryTruck } from 'react-icons/ci';
 import RoundImage from './roundImage';
@@ -94,10 +93,10 @@ const Footer = () => {
 
         <span className='md:py-0 lg:py-0 xl:py-0'>
        <span className=''>
-       <h1 className="group  text-2xl text-amp_red border-b-amp_red transition duration-500 hover:text-lime-200">
+       {/* <h1 className="group  text-2xl text-amp_red border-b-amp_red transition duration-500 hover:text-lime-200">
   We're Available
   <hr className="w-40 mb-7 mt-1 border-t-2  border-amp_red transition duration-500 group-hover:border-lime-200" />
-</h1>
+</h1> */}
        </span>
       <span className='hidden xl:inline md:inline lg:inline'>
        <span className='flex py-1 items-center justify-between text-[18px]'>
