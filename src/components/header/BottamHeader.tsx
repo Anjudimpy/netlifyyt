@@ -5,12 +5,13 @@ import { IoMdCart, IoMdMenu, IoMdSearch } from 'react-icons/io';
 import { CgMenuGridR } from 'react-icons/cg';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { HiDotsVertical } from 'react-icons/hi';
+import { RiArrowDownSLine } from 'react-icons/ri';
 
 
 
 const BottamHeader = () => {
   return (
-    <div className='flex flex-col-1 bg-slate-50 w-full sticky top-0 z-50 h-[100px]  md:px-11 xl:px-11 lg:px-11 justify-between items-center'>
+    <div className='flex  font-serif flex-col-1 bg-slate-50 w-full sticky top-0 z-50 h-[100px]  md:px-11 xl:px-11 lg:px-11 justify-between items-center'>
       <div>
         <Image src={logo} alt='logoimg' className=' w-[198px] h-16 '/>
         <span className='text-[12px] md:text-[12px] px-2 font-bold text-amp_red '>Ampee Engineering Tools & Fab</span>
@@ -39,16 +40,31 @@ const BottamHeader = () => {
 </select>
 
         </span>
-        <span className='mt-2 hover:text-amp_red'>
-            <select>
-                <option>Product</option>
-            </select>
-        </span>
-        <span className='mt-2 hover:text-amp_red'>
-            <select>
-                <option>Shop</option>
-            </select>
-        </span>
+        <div>
+        <div className='group dropdown relative font-bold cursor-pointer mt-2 h-full nav-link  hover:text-amp_red'>
+        <span className='flex'><span>Product</span><span><RiArrowDownSLine className='mt-1'/></span></span>
+      <div className='absolute hidden cursor-pointer bg-white h-auto w-[20rem] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 -bottom-[17rem] group-hover:flex flex-col'>
+        <div className='p-2 dropdown-content '>Gel</div>
+        <hr className=''></hr>
+        <div className='p-2 dropdown-content '>Consumables</div><hr className=''></hr>
+        <div className='p-2 dropdown-content '>Calibration Block</div><hr className=''></hr>
+        <div className='p-2 dropdown-content '>NDT Probes &amp; Accessories</div><hr className=''></hr>
+        <div className='p-2 dropdown-content'>Safety Accessories</div><hr className=''></hr>
+        <div className='p-2 dropdown-content '>Welding Equipment &amp; Accessories</div>
+        </div>
+      </div>
+
+
+    
+        </div>
+        <div className='group dropdown relative font-bold cursor-pointer mt-2 h-full nav-link  hover:text-amp_red'>
+        <span className='flex'><span>Shop</span><span><RiArrowDownSLine className='mt-1'/></span></span>
+      <div className='absolute hidden cursor-pointer bg-white h-auto w-[13rem] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 -bottom-[10rem] group-hover:flex flex-col'>
+        <div className='p-2 dropdown-content '>Cart</div><hr></hr>
+        <div className='p-2 dropdown-content '>Check Out</div><hr></hr>
+        <div className='p-2 dropdown-content '>My Account</div>
+        </div>
+        </div>
         <span className='mt-2 mr-5 hover:text-amp_red'>Contact</span>
         
         <span className='font-bold'>

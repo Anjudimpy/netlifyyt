@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import oil from '../images/ameee/Chain-Oil.jpg';
+import gel from '../images/ameee/gel.webp';
 import belt from '../images/ameee/safetybelt-1.jpg';
 import { TbHandClick } from "react-icons/tb";
 
@@ -29,17 +29,17 @@ const MyCarousel = () => (
     responsive={responsive}
     infinite={true}
     autoPlaySpeed={5000}
-     autoPlay={true}
+    //  autoPlay={true}
     itemClass="flex items-center justify-center  "
  
  
   >
     <div className="w-52 h-52 ">
-       <div className="w-48 h-48 shadow-md shadow-red-400  bg-amp_light  rounded-full">
+       <div className="w-48 h-48 shadow-md shadow-red-400   rounded-full">
+        <Image src={gel} alt="" className="w-48 h-48 owlimg rounded-full"/>
        <div className="group w-48 h-48 rounded-full text-center  hover:bg-red-300 transition duration-500   cursor-pointer text-white justify-center p-2 border hover:border-blue-950  shadow-md shadow-red-400 ">
            <h1 className="pt-[55px] text-[20px] group-hover:animate-bounce px-[1.2rem] hover:text-gray-700 transition duration-500   cursor-pointer absolute font-bold
-           textShadow ">ANTI SPATTER <br></br> AGENTS
-           <br></br> FOR WELDING
+           textShadow ">GEL
             </h1>
           
         </div>

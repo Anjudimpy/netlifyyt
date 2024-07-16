@@ -15,7 +15,7 @@ type ProductCardProps = {
 const ProductCard = ({ title, description, icon: Icon, dataAos, dataAosDelay }: ProductCardProps) => {
   return (
     <div data-aos={dataAos} data-aos-delay={dataAosDelay} className='relative  h-[21rem] w-[20rem] bg-white  rounded-md shadow-md shadow-red-300 mx-2'>
-      <div className='group h-[21rem]  w-[20rem] rounded-lg hover:bg-[#f04c5fb9] transition duration-500 transform ease-linear'>
+      <div className='group h-[21rem]  w-[20rem] rounded-lg dropdown-content transition duration-500 transform ease-linear'>
         <div className='flex text-center justify-center py-7'>
           <div className='text-[55px] group-hover:bg-white transition duration-300 bg-amp_red text-white rounded-full p-3 group-hover:scale-x-[-1]'>
             <span className='group-hover:text-amp_red'><Icon /></span>

@@ -21,7 +21,7 @@ const config: Config = {
      colors:{
       amp_blue:"#00264d",
       amp_light:"#00274df1",
-      amp_red:"#e71c52ea",
+      amp_red:"#e71c52",
       lightText:"#ccc",
      },
      fontFamily:{
@@ -46,7 +46,9 @@ const config: Config = {
         '0%': { transform: 'rotate(0deg)' },
         '100%': { transform: 'rotate(360deg)' },
       },
+      
     },
+    
 
     
      

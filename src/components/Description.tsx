@@ -64,12 +64,16 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
           <div className="leading-relaxed text-white font-medium text-base tracking-wide h-40 italic ">
               {elem.desc}
             </div> 
-            <button className='w-[22%] h-11 pt-1 text-[18px] text-white font-semibold bg-amp_light p-2 border-none rounded-full mx-2  '>
-          Get Started | +
+            <button className='w-[22%] btn hover:bg-transparent h-11 pt-1 text-[18px] text-white font-semibold bg-amp_light p-2 border-none rounded-full mx-2  '>
+            <div className='absolute btn1 w-[11rem] -top-2 -left-4 h-[10rem] pt-[10px]  text-[18px] text-white font-semibold border border-amp_blue   '>
+          Get Started | +</div>
         </button>
-        <button className='w-[22%] h-11 pt-1 text-[18px] text-white font-semibold border border-amp_blue p-2  rounded-full mx-2 '>
+        <button className='relative btn  w-[22%]  transition duration-500 h-11 left-0   text-[18px] text-white font-semibold border border-amp_blue  rounded-full mx-2 '>
+         
+          
+          <div className='absolute btn1 w-[10rem] -top-2 -left-4 h-[10rem] pt-2  text-[18px] text-white font-semibold border border-amp_blue   '>
           Read More | +
-        </button>
+          </div></button>
             </motion.div>
         <div>
         <div className='flex absolute bottom-[31%] left-[26%]'> 
@@ -82,14 +86,14 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
 
          </div>
        
-          <div className="absolute bottom-1 w-full flex justify-center items-center">
+          {/* <div className="absolute bottom-1 w-full flex justify-center items-center">
             <div onClick={clickPrev} className="absolute bottom-2 right-10 cursor-pointer">
               <IoMdArrowDropright className="h-3 w-3" />
             </div>
             <div onClick={clickNext} className="absolute bottom-2 right-2 cursor-pointer">
               <IoMdArrowDropleft className="h-3 w-3" />
             </div>
-          </div>
+          </div> */}
         </div>
       ))}
     </div>

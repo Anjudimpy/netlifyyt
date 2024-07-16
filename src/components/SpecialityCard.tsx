@@ -22,8 +22,8 @@ const SpecialityCard = ({ title, icon: Icon, dataAos, dataAosDelay }: Speciality
       data-aos-delay={dataAosDelay}
       className='relative h-[11rem] w-[15rem] bg-white shadow-md shadow-red-200 mx-[13px]'
     >
-      <div className='group h-[11rem] w-[15rem] hover:bg-[#f04c5fb9] transition duration-500 transform ease-linear'>
-        <span className='flex items-center justify-center text-[80px] text-amp_red rounded-full p-3 group-hover:text-white transform transition-transform duration-300 group-hover:scale-75'>
+      <div className='group h-[11rem] w-[15rem] spacality transition duration-500 transform ease-linear'>
+        <span className='flex items-center group-hover:scale-x-[-1] justify-center text-[80px] text-amp_red rounded-full p-3 group-hover:text-white transform transition-transform duration-500 '>
           <Icon />
         </span>
         <h2 className='flex text-center px-2 justify-center dotted-underline group-hover:text-white text-amp_blue text-[18px] font-bold'>

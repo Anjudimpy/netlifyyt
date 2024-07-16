@@ -15,6 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import RippleEffect from "@/components/RippleEffect";
 import WorkProccess from "@/components/WorkProccess";
+import ContactUs from "@/components/ContactUs";
 
 
 export default function Home() {
@@ -59,9 +60,11 @@ useEffect(()=>{
          <Appointment/>
          <PlanningPrice/>
          <RippleEffect/>
+         {/* <ContactUs/> */}
          <div className="relative z-[1]">
          <WorkProccess/>
           </div>
+         
 
       
    

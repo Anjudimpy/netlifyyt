@@ -26,7 +26,7 @@ const WorkProcessCard = ({title,step, icon: Icon,}:WorkProcessCardProps) => {
    
 </div>
 <div className=' absolute  h-[210px] w-[210px]  -left-[9px] -top-[10.8px]  group-hover:animate-slow2-spin2'>
-    <span className=' absolute h-[54px] w-[54px] bg-red-600 rounded-full top-3 left-36 text-white flex group-hover:bg-amp_blue justify-center py-1 font-bold text-[27px]'>{step}</span>
+    <span className=' absolute h-[54px] w-[54px] bg-red-600 rounded-full top-3 left-36 text-white flex group-hover:bg-amp_blue justify-center py-1 font-bold text-[27px] '>{step}</span>
 </div>
 
 
