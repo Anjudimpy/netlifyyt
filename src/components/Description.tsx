@@ -71,7 +71,7 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
         <button className='relative btn  w-[22%]  transition duration-500 h-11 left-0   text-[18px] text-white font-semibold border border-amp_blue  rounded-full mx-2 '>
          
           
-          <div className='absolute btn1 w-[10rem] -top-2 -left-4 h-[10rem] pt-2  text-[18px] text-white font-semibold border border-amp_blue   '>
+          <div className='absolute btn1 w-[11rem] -top-2 -left-4 h-[10rem] pt-2  text-[18px] text-white font-semibold border border-amp_blue   '>
           Read More | +
           </div></button>
             </motion.div>
