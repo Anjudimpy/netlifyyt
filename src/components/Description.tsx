@@ -74,7 +74,7 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
           </div></button>
             </motion.div>
         <div>
-        <div className='flex absolute bottom-[65px]  xl:bottom-[31%] lg:bottom-[31%]  md:bottom-[31%] mdl:bottom-[31%]  xl:left-[29%] lg:left-[38%] mdl:left-[48%] md:left-[54%] left-0   '> 
+        <div className='flex absolute bottom-[7rem]  xl:bottom-[31%] lg:bottom-[31%]  md:bottom-[11rem] mdl:bottom-[31%]  xl:left-[29%] lg:left-[38%] mdl:left-[48%] md:left-[54%] left-0   '> 
         
          <span className=" vedio-button">
             <TiMediaPlay  className=' absolute bg-[#e03202]  h-10 p-1 w-10 rounded-full text-white' />
