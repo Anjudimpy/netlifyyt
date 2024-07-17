@@ -50,7 +50,7 @@ const ContactUs = () => {
             </span>
             </div>
          
-         <div className='mx-28'>
+         <div className='mx-24'>
          <Testimonial/>
          </div>
 

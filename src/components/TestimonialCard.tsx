@@ -78,7 +78,7 @@ type CarouselItemProps = {
 
 const CarouselItem: React.FC<CarouselItemProps> = ({ src, alt, title, description, bgColor }) => {
         return (
-          <div className="w-[24.5rem] h-48">
+          <div className="w-[24rem] h-48">
             <div className="relative w-[24rem] bg-white h-[10.4rem] shadow-md shadow-red-400  rounded-full ">
           
               <div className="group absolute flex justify-between top-6 -left-4  w-28 h-28 rounded-full p-[11px]  text-center transition duration-500 cursor-pointer text-amp_blue "  style={{backgroundColor:bgColor}}>
