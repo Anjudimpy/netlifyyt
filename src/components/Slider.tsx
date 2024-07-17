@@ -33,8 +33,8 @@ const Slider = () => {
   
 
   return (
-    <div className="place-items-center w-full h-full ">
-      <div className="w-full flex justify-center items-center  h-[600px] relative">
+    <div className="place-items-center w-full h-full xs:h-auto">
+      <div className="w-full flex justify-center items-center  xl:h-[600px] xs:h-[400px] relative">
         {images.map((pic, idx) => (
           <div
             className={`${
@@ -65,7 +65,7 @@ const Slider = () => {
                 alt=""
                 width={400}
                 height={400}
-                className="w-full h-[700px] "
+                className="w-full xl:h-[700px] xs:h-[500px] "
               />
                
             </motion.div>

@@ -49,7 +49,7 @@ useEffect(()=>{
 
   return (
     <main className="w-full overflow-hidden">
-      <div className="h-[700px] bgimage relative z-[1]">
+      <div className="xl:h-[700px] xs:h-[500px] bgimage relative z-[1]">
         
         <Slider/>
       </div>

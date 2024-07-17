@@ -41,7 +41,7 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
             }}
             className="w-full"
           >
-            <div className="py-16 text-white w-full text-5xl font-extrabold">
+            <div className="xl:py-16 xs:py-1 text-white w-full xl:text-5xl xs:text-2xl font-extrabold">
               {elem.title}
             </div>
             
@@ -61,7 +61,7 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
            
             className="w-full"
           >
-          <div className="leading-relaxed text-white font-medium text-base tracking-wide h-40 italic ">
+          <div className="leading-relaxed text-white font-medium text-base tracking-wide xs:w-[22rem] xl:w-full text-justify h-40 italic ">
               {elem.desc}
             </div> 
             <button className='xl:w-[24%] xs:w-[8rem] xs:h-11  btn hover:bg-transparent xl:h-12 pt-1 text-[18px] text-white font-semibold bg-amp_light p-2 border-none rounded-full mx-2  '>
@@ -74,7 +74,7 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
           </div></button>
             </motion.div>
         <div>
-        <div className='flex absolute bottom-[7rem]  xl:bottom-[31%] lg:bottom-[31%]  md:bottom-[11rem] mdl:bottom-[31%]  xl:left-[29%] lg:left-[38%] mdl:left-[48%] md:left-[54%] left-0   '> 
+        <div className='flex absolute xs:bottom-[16rem]  xl:bottom-[31%] lg:bottom-[31%]  md:bottom-[11rem] mdl:bottom-[31%]  xl:left-[29%] lg:left-[38%] mdl:left-[48%] md:left-[54%] left-0   '> 
         
          <span className=" vedio-button">
             <TiMediaPlay  className=' absolute bg-[#e03202]  h-10 p-1 w-10 rounded-full text-white' />
