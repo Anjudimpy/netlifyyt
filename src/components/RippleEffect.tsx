@@ -36,7 +36,7 @@ const RippleEffect = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         width: '100%',
-        height: '100vh',
+        height: '700px',
       }}
     >
         <div className="absolute top-0 left-0 w-full h-[700px] bg-black opacity-40"></div>

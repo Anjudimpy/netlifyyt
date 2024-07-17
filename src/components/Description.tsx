@@ -65,11 +65,11 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
               {elem.desc}
             </div> 
             <button className='w-[24%] btn hover:bg-transparent h-12 pt-1 text-[18px] text-white font-semibold bg-amp_light p-2 border-none rounded-full mx-2  '>
-            <div className='absolute btn1 w-[11rem] -top-2 -left-4 h-[10rem] pt-[10px]  text-[18px] text-white font-semibold border border-amp_blue   '>
+            <div className='absolute btn1 w-[12rem] -top-2 -left-4 h-[10rem] pt-[10px]  text-[18px] text-white font-semibold border border-amp_blue   '>
           Get Started | +</div>
         </button>
         <button className='relative btn  w-[24%]  transition duration-500 h-12 left-0   text-[18px] text-white font-semibold border border-amp_blue  rounded-full mx-2 '>
-           <div className='absolute btn1 w-[11rem] -top-2 -left-4 h-[10rem] pt-2  text-[18px] text-white font-semibold border border-amp_blue   '>
+           <div className='absolute btn1 w-[12rem] -top-2 -left-4 h-[10rem] pt-2  text-[18px] text-white font-semibold border border-amp_blue   '>
           Read More | +
           </div></button>
             </motion.div>
