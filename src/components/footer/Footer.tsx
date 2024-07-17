@@ -18,8 +18,7 @@ const Footer = () => {
 
         <span className=' pr-7 pb-10 md:pb-0 lg:pb-0 xl:pb-0'>
         <Image src={logo} alt='logo' className='h-[100px] w-[240px]'/>
-        <p className='py-3 '>Lorem ipsum dolor sit amet consec saepe providesit
-           amet consec saepe provide</p>
+        <p className='py-3 text-justify text-[15px] italic font-base '>AMPEE Engineering Tools & Fab Specialized in Manufacturing & Supplier for NDT Equipment & Accessories and Welding Accessories, & Consumables in India.</p>
        
        <span className='hidden xl:inline md:inline'>
        <span className='group pt-5 flex relative   hover:text-amp_red transition duration-500  hover:underline scale-x-100'>
@@ -30,11 +29,11 @@ const Footer = () => {
 </p>
            </span>
            <p className=' group flex pt-2 relative  hover:text-amp_red transition duration-500 hover:underline scale-x-100'>
-            <MdAccessTime className='text-[25px] text-amp_red pr-2 font-bold group-hover:animate-bounce'/> India +91 8110877771
+            <MdAccessTime className='text-[25px] text-amp_red pr-2 font-bold group-hover:animate-bounce'/> India +91 9920304051, 8110977771
            </p>
            <p className='group flex pt-2 relative  hover:text-amp_red transition duration-500  hover:underline scale-x-100'>
 
-            <IoMdMail className='text-[25px] text-amp_red pr-2 font-bold group-hover:animate-bounce'/> ampee@gamil.com
+            <IoMdMail className='text-[25px] text-amp_red pr-2 font-bold group-hover:animate-bounce'/> ampeeet@gmail.com/ Sales@ampeeet.com
 
            </p>
        </span>
