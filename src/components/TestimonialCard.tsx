@@ -33,8 +33,8 @@ const items = [
   },
   {
     src: "/shandhiya.jpeg",
-    title: "Shandhiya",
-    alt: 'Account Manager',
+    title: " Account Manager",
+    alt: 'Shandhiya',
     description: 'Anti-Spatter Gel for torch nozzle in manual operations.',
     bgColor: '#e71c52e1', // Example background color
   },
@@ -47,8 +47,8 @@ const items = [
   },
   {
     src: "/shandhiya.jpeg",
-    title: "Shandhiya",
-    alt: 'Account Manager',
+    title: " Account Manager",
+    alt: 'Shandhiya',
     description: 'Anti-Spatter Gel for torch nozzle in manual operations.',
     bgColor: '#e71c52e1', // Example background color
   },
@@ -61,8 +61,8 @@ const items = [
   },
   {
     src: "/shandhiya.jpeg",
-    title: "Shandhiya",
-    alt: 'Account Manager',
+    title: " Account Manager",
+    alt: 'Shandhiya',
     description: 'Anti-Spatter Gel for torch nozzle in manual operations.',
     bgColor: '#e71c52e1', // Example background color
   },
