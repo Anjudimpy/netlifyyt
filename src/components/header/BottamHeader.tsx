@@ -16,7 +16,7 @@ const BottamHeader = () => {
         <Image src={logo} alt='logoimg' className=' w-[198px] h-16 '/>
         <span className='text-[12px] md:text-[12px] px-2 font-bold text-amp_red '>Ampee Engineering Tools & Fab</span>
       </div>
-<div className='flex flex-col-1 gap-4 lg:hidden'>
+<div className='flex mx-2 gap-3 xl:hidden lg:hidden'>
 <span className='font-bold mt-1'>
          <IoMdMenu className='text-[38px] p-1 bg-amp_blue text-white hover:bg-amp_red  ease-in-out transition-colors duration-300 '/>
         </span>
