@@ -9,9 +9,9 @@ import { MdShoppingCart } from 'react-icons/md';
 const PlanPricingCrad = () => {
   return (
   
-    <div className='flex gap-10 mx-12'>
-  <div data-aos="flip-left" data-aos-duration="2000"   data-aos-easing="ease-out-cubic"  className=' h-[39rem] w-[24rem] bg-white   shadow-md shadow-red-300 '>
-      <div className='group h-[21rem]  w-[20rem]  transition duration-500 transform ease-linear'>
+    <div className='xl:flex lg:flex gap-10 lg:mx-12 xl:mx-14 sm:mx-5'>
+  <div data-aos="flip-left" data-aos-duration="2000"   data-aos-easing="ease-out-cubic"  className=' h-[39rem] w-[24rem] bg-white sm:mb-3  shadow-md shadow-red-300 '>
+      <div className='group h-[21rem]   w-[20rem]  transition duration-500 transform ease-linear'>
       <Image src={white} alt='' className='h-[14rem] w-[24rem]  bg-no-repeat bg-center bg-cover' />
        <div className=' absolute top-0 h-[14rem] w-[23.4rem]  bg-[#06060643]'>
        <span className='flex justify-center items-center pt-[11.5rem] font-extrabold text-white font-serif text-[28px]'>WHITE COUPLANT</span>
@@ -40,7 +40,7 @@ const PlanPricingCrad = () => {
 
          {/* third */}
 
-         <div data-aos="flip-left" data-aos-duration="4000"   data-aos-easing="ease-out-cubic"  className=' h-[37.5rem] w-[24rem] bg-white   shadow-md shadow-red-300 '>
+         <div data-aos="flip-left" data-aos-duration="4000"   data-aos-easing="ease-out-cubic"  className=' h-[37.5rem] w-[24rem] bg-white sm:mb-3  shadow-md shadow-red-300 '>
       <div className='group h-[21rem]  w-[20rem]  transition duration-500 transform ease-linear'>
       <Image src={blue} alt='' className='h-[13rem] w-[24rem]  bg-no-repeat bg-center bg-cover' />
        <div className=' absolute top-0 h-[13rem] w-[23.4rem]   opacity-55 bg-blue-600'>
