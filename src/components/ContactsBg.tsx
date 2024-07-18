@@ -28,7 +28,7 @@ const ContactBg = () => {
   }, []);
 
   return (
-    <div className="relative ">
+    <div className="relative  ">
     <div
       className='bgContact bg-fixed'
       ref={containerRef}
@@ -38,7 +38,7 @@ const ContactBg = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         width: '100%',
-        height: '78rem',
+       
       }}
     >
         <div className="absolute top-0 left-0 w-full h-[800px] bg-black opacity-40"></div>

@@ -28,7 +28,7 @@ const RippleEffect = () => {
 
   return (
     <div
-      className='bgimage relative'
+      className='bgimage relative xl:h-[700px] lg:h-[700px] xs:h-[410px] sm:h-[410px]'
       ref={containerRef}
       style={{
         backgroundColor: 'black',
@@ -36,7 +36,7 @@ const RippleEffect = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         width: '100%',
-        height: '700px',
+        
       }}
     >
         <div className="absolute top-0 left-0 w-full h-[700px] bg-black opacity-40"></div>
