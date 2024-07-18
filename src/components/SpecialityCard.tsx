@@ -71,7 +71,7 @@ const SpecialityList = () => {
         title: 'Mole Spray',
         icon: SiMoleculer,
         dataAos: 'flip-right',
-        dataAosDelay: '1800',
+        dataAosDelay: '1600',
       },
       {
         title: 'Corrogard Wax Spray',

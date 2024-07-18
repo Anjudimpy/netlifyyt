@@ -15,7 +15,7 @@ type Props = {
 
 const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
   return (
-    <div className=" w-[100%] bg-transparent relative xl:left-[8%] xs:left-[2%]">
+    <div className=" w-[100%] bg-transparent relative xl:left-[8%] xs:left-[7%]">
       <div className=""></div>
       {images.map((elem, idx) => (
         <div className={`${
@@ -61,7 +61,7 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
            
             className="w-full"
           >
-          <div className="leading-relaxed text-white font-medium text-base tracking-wide xs:w-[22rem] xl:w-full text-justify h-40 italic ">
+          <div className="leading-relaxed text-white font-medium text-base tracking-wide xs:w-[22rem] xl:w-full text-justify xl:h-40 xs:h-44 italic ">
               {elem.desc}
             </div> 
             <button className='xl:w-[24%] xs:w-[8rem] xs:h-11  btn hover:bg-transparent xl:h-12 pt-1 text-[18px] text-white font-semibold bg-amp_light p-2 border-none rounded-full mx-2  '>
@@ -74,13 +74,14 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
           </div></button>
             </motion.div>
         <div>
-        <div className='flex absolute xs:bottom-[16rem]  xl:bottom-[31%] lg:bottom-[31%]  md:bottom-[11rem] mdl:bottom-[31%]  xl:left-[29%] lg:left-[38%] mdl:left-[48%] md:left-[54%] left-0   '> 
-        
-         <span className=" vedio-button">
+        <div className='flex absolute xl:-mt-3 xs:mt-12  xl:left-[27%] lg:left-[27%] mdl:left-[34%] md:left-[44%] left-0   '> 
+                <span className=" vedio-button ">
             <TiMediaPlay  className=' absolute bg-[#e03202]  h-10 p-1 w-10 rounded-full text-white' />
              </span>
-             <p className='pt-2 px-2 text-white text-base font-semibold'>Get Free Delivery</p>
+             <p className='pt-2 px-2  text-white text-base font-semibold'>Get Free Delivery</p>
+       
         </div>
+
 
          </div>
        

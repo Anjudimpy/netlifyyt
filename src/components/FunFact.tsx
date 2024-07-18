@@ -23,7 +23,7 @@ const FunFact = () => {
             <span className='text-white text-[1.5rem]'>Satisfied Customers</span>
             </div>
 
-            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+            <div data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine"
             className='group font-bold'><AiFillProduct className='text-amp_red text-[5rem] ml-12 group-hover:animate-bounce'/>
             <span className='text-white text-[2rem]'>150+</span><br></br>
             <span className='text-white text-[1.5rem]'>Product Section</span>
