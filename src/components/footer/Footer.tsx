@@ -145,11 +145,11 @@ const Footer = () => {
           <span>
           <p className=' text-[14px] md:text-[25px] lg:text-[25px] xl:text-[25px]'>+91 8116177771
                  </p> 
-                  <p className='px-5 text-[10px] md:text-[17px] lg:text-[17px] xl:text-[17px]'>24*7 Call Us</p>
+                  <p className='xl:px-5 lg:px-5 text-[10px] md:text-[17px] lg:text-[17px] xl:text-[17px]'>24*7 Call Us</p>
           </span>
           </span>
          <span className=' border-t-neutral-800 border-b-0  xl:border-none border-none'>
-         <span className='flex gap-1 xl:py-0 lg:py-0 text-center justify-center'>Copyright <FaRegCopyright className='mt-1 text-[15px]'/> 2014 | Pawered By <span className='text-amp_red'>Ampee</span> </span>
+         <span className='flex gap-1 xl:py-0 lg:py-0 sm:py-5 text-center justify-center'>Copyright <FaRegCopyright className='mt-1 text-[15px]'/> 2014 | Pawered By <span className='text-amp_red'>Ampee</span> </span>
         </span>
          </span>
       </div>
