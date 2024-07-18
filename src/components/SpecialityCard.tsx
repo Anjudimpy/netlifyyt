@@ -20,13 +20,13 @@ const SpecialityCard = ({ title, icon: Icon, dataAos, dataAosDelay }: Speciality
     <div
       data-aos={dataAos}
       data-aos-delay={dataAosDelay}
-      className='relative h-[11rem] w-[15rem] bg-white shadow-md shadow-red-200 mx-[13px]'
+      className='relative xl:h-[11rem] md:h-[11rem] md:w-[15rem] lg:h-[10rem] lg:w-[13rem]  xs:w-[10rem] sm:h-[8rem] sm:w-[11rem] bg-white shadow-md shadow-red-200 mx-[13px] sm:mx-0'
     >
-      <div className='group h-[11rem] w-[15rem] spacality transition duration-500 transform ease-linear'>
-        <span className='flex items-center group-hover:scale-x-[-1] justify-center text-[80px] text-amp_red rounded-full p-3 group-hover:text-white transform transition-transform duration-500 '>
+      <div className='group xl:h-[11rem] xl:w-[15rem] md:h-[11rem] md:w-[15rem] lg:h-[10rem] lg:w-[13rem]   xs:w-[10rem]  sm:h-[8rem] sm:w-[11rem] spacality transition duration-500 transform ease-linear'>
+        <span className='flex items-center group-hover:scale-x-[-1] justify-center xl:text-[80px] lg:text-[80px] md:text-[80px] xs:text-[60px] sm:text-[60px] text-amp_red rounded-full p-3 group-hover:text-white transform transition-transform duration-500 '>
           <Icon />
         </span>
-        <h2 className='flex text-center px-2 justify-center dotted-underline group-hover:text-white text-amp_blue text-[18px] font-bold'>
+        <h2 className='flex text-center px-2 justify-center dotted-underline group-hover:text-white text-amp_blue xl:text-[18px] lg:text-[17px] md:text-[14px] sm:text-[12px] font-bold'>
           {title}
         </h2>
       </div>
@@ -41,7 +41,7 @@ const SpecialityList = () => {
         title: 'Rust Remover',
         icon: FaSprayCanSparkles,
         dataAos: 'fade-up',
-        dataAosDelay: '100',
+        dataAosDelay: '1',
       },
       {
         title: 'Anti Spatter',
@@ -100,7 +100,7 @@ const SpecialityList = () => {
     ]
   
     return (
-      <div className='grid grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6'>
+      <div className='grid grid-cols-1 xs:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 sm:grid-cols-2  xl:grid-cols-5 gap-6'>
         {Speciality.map((product, idx) => (
           <SpecialityCard
             key={idx}

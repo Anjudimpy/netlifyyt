@@ -69,7 +69,7 @@ const Slider = () => {
               />
                
             </motion.div>
-          <div className="absolute top-0 left-0 w-full h-[700px] bg-black opacity-65"></div>
+          <div className="absolute top-0 left-0 w-full xs:h-[500px] xl:h-[700px] bg-black opacity-65"></div>
 
           </div>
         ))}

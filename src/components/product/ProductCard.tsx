@@ -71,7 +71,8 @@ const ProductCardList = () => {
   ];
 
   return (
-    <div className='flex'>
+  <div className='w-full'>
+  <div className='w-full xl:flex lg:flex xs:grid xs:gap-2  items-center gap-1 justify-between'>
       {products.map((product, idx) => (
         <ProductCard
           key={idx}
@@ -83,6 +84,7 @@ const ProductCardList = () => {
         />
       ))}
     </div>
+  </div>
   );
 }
 

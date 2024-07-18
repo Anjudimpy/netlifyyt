@@ -2,7 +2,7 @@ export const images=[
     {
         id: 1,
         src:"/bg.webp",
-        title:" Your wlecom",
+        title:" Your wlecome",
         desc:"Our team of seasoned writers and creatives craft content that not only engages but also converts. Whether it's persuasive copy, informative blog posts, or compelling social media updates, we ensure each piece resonates with your target "
     },
     {
@@ -15,7 +15,7 @@ export const images=[
     {
         id: 3,
         src:"/ameee/L00-L00Nylon-Features.png",
-        title:"wlkj",
+        title:"We Care About You!",
         desc:"Understanding that each brand is unique, we tailor our content strategies to meet your specific needs.captivating content is paramount. Our team of seasoned writers and creatives captivating content is paramount. Our team of seasoned writers and creatives  "
     },
     {
@@ -27,7 +27,7 @@ export const images=[
     {
         id: 5,
         src:"/ameee/MicrodotCableConnector.png",
-        title:"Hello wlcom",
+        title:"Hello wlecome",
         desc:"Understanding that each brand is unique, we tailor our content strategies to meet your specific needs.captivating content is paramount. Our team of seasoned writers and creatives captivating content is paramount. Our team of seasoned writers and creatives   "
     },
 
