@@ -11,7 +11,7 @@ const Product = () => {
             <span className='title-element'><FontAwesomeIcon icon={faShoppingCart}/></span>
             <h5 className='lg:text-4xl xl:text-4xl xs:text-[25px] font-bold text-amp_blue textShadow1'>Our Valuable Products</h5>
         </div>
-        <div className='py-14 lg:px-20 xl:px-20 xs:px-12'>
+        <div className='py-14 lg:px-20 xl:px-20 sm:px-12 xs:px-auto '>
             <ProductCardList/>
         </div>
         <Particle/>

@@ -13,10 +13,10 @@ const BottamHeader = () => {
   return (
     <div className='flex  font-serif flex-col-1 bg-slate-50 w-full sticky top-0 z-50 h-[100px]  md:px-11 xl:px-11 lg:px-11 justify-between items-center'>
       <div>
-        <Image src={logo} alt='logoimg' className=' w-[198px] h-16 '/>
-        <span className='text-[12px] md:text-[12px] px-2 font-bold text-amp_red '>Ampee Engineering Tools & Fab</span>
+        <Image src={logo} alt='logoimg' className=' lgl:w-[180px] lgl:h-14  xs:w-[150px] xs:h-12'/>
+        <span className='lgl:text-[10px] xs:text-[8px] px-2 font-bold text-amp_red '>Ampee Engineering Tools & Fab</span>
       </div>
-<div className='flex mx-2 gap-3 xl:hidden lg:hidden'>
+<div className='flex mx-2 gap-3 xl:hidden  lgl:hidden'>
 <span className='font-bold mt-1'>
          <IoMdMenu className='text-[38px] p-1 bg-amp_blue text-white hover:bg-amp_red  ease-in-out transition-colors duration-300 '/>
         </span>
@@ -24,7 +24,7 @@ const BottamHeader = () => {
          <HiDotsVertical className='text-[38px] p-1 bg-amp_blue text-white hover:bg-amp_red  ease-in-out transition-colors duration-300  '/>
         </span>
 </div>
-      <div className='flex-col-1 text-amp_blue gap-4 font-bold hidden lg:flex'>
+      <div className='flex-col-1 text-amp_blue gap-4 font-bold hidden lgl:flex'>
       
         
         <span className='mt-2 hover:text-amp_red'>Home</span>

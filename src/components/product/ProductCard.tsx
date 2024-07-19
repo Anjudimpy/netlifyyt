@@ -14,7 +14,7 @@ type ProductCardProps = {
 
 const ProductCard = ({ title, description, icon: Icon, dataAos, dataAosDelay }: ProductCardProps) => {
   return (
-    <div data-aos={dataAos} data-aos-delay={dataAosDelay} className='relative  h-[21rem] w-[20rem] bg-white  rounded-md shadow-md shadow-red-300 mx-2'>
+    <div data-aos={dataAos} data-aos-delay={dataAosDelay} className='relative  h-[21rem] w-[19rem]  bg-white  rounded-md shadow-md shadow-red-300 mx-2'>
       <div className='group h-[21rem]  w-[20rem] rounded-lg dropdown-content transition duration-500 transform ease-linear'>
         <div className='flex text-center justify-center py-7'>
           <div className='text-[55px] group-hover:bg-white transition duration-300 bg-amp_red text-white rounded-full p-3 group-hover:scale-x-[-1]'>
@@ -22,12 +22,12 @@ const ProductCard = ({ title, description, icon: Icon, dataAos, dataAosDelay }: 
           </div>
         </div>
         <div>
-          <div className='absolute top-5 right-4 group-hover:opacity-35 text-[65px] group-hover:animate-bounce text-red-200'>
+          <div className='absolute top-5 right-8 group-hover:opacity-35 text-[60px] group-hover:animate-bounce text-red-200'>
             <Icon />
           </div>
         </div>
         <h2 className='flex text-center justify-center group-hover:text-white text-amp_blue text-[20px] font-bold'>{title}</h2>
-        <p className='flex text-center group-hover:text-white justify-center px-3 py-2 text-base font-serif text-amp_light'>
+        <p className='flex text-center group-hover:text-white justify-center mt-2  w-[18.7rem] py-2 text-[15px] font-serif text-amp_light'>
           {description}
         </p>
         <span className='flex group-hover:text-white items-center justify-center cursor-pointer font-bold text-[17px] text-amp_red'>

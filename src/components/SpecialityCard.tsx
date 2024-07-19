@@ -20,9 +20,9 @@ const SpecialityCard = ({ title, icon: Icon, dataAos, dataAosDelay }: Speciality
     <div
       data-aos={dataAos}
       data-aos-delay={dataAosDelay}
-      className='relative xl:h-[11rem] xl:w-[15rem] md:h-[11rem] md:w-[15rem] lg:h-[10rem] lg:w-[13rem]  xs:w-[10rem] sm:h-[8rem] sm:w-[11.6rem] bg-white shadow-md shadow-red-200 mx-[13px] sm:mx-0'
+      className='relative xl:h-[11rem] xl:w-[15rem] md:h-[11rem] md:w-[15rem] lg:h-[10rem] lg:w-[13rem] xs:h-[8.2rem] xs:w-[18.3rem]  sm:h-[8rem] sm:w-[11.6rem] bg-white shadow-md shadow-red-200 mx-[13px] sm:mx-0'
     >
-      <div className='group xl:h-[11rem] xl:w-[15rem] md:h-[11rem] md:w-[15rem] lg:h-[10rem] lg:w-[13rem]   xs:w-[10rem]  sm:h-[8rem] sm:w-[11.6rem] spacality transition duration-500 transform ease-linear'>
+      <div className='group xl:h-[11rem] xl:w-[15rem] md:h-[11rem] md:w-[15rem] lg:h-[10rem] lg:w-[13rem]   xs:h-[8.2rem] xs:w-[18.3rem]  sm:h-[8rem] sm:w-[11.6rem] spacality transition duration-500 transform ease-linear'>
         <span className='flex items-center group-hover:scale-x-[-1] justify-center xl:text-[80px] lg:text-[80px] md:text-[80px] xs:text-[60px] sm:text-[60px] text-amp_red rounded-full p-3 group-hover:text-white transform transition-transform duration-500 '>
           <Icon />
         </span>

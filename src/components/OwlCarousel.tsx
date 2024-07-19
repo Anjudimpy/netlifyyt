@@ -7,12 +7,28 @@ import 'react-multi-carousel/lib/styles.css';
 
 const responsive = {
   desktop: {
-    breakpoint: { max: 3000, min: 800 },
+    breakpoint: { max: 3000, min: 1300 },
     items: 6,
     slidesToSlide: 3, // optional, default to 1.
   },
+  
+  lg: {
+    breakpoint: { max: 1300, min: 1100 },
+    items: 5,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+  lap: {
+    breakpoint: { max: 1100, min: 950 },
+    items: 4,
+    slidesToSlide: 1, // optional, default to 1.
+  },
+  xl: {
+    breakpoint: { max:950 , min: 700 },
+    items: 3,
+    slidesToSlide: 1, // optional, default to 1.
+  },
   tablet: {
-    breakpoint: { max: 600, min: 464 },
+    breakpoint: { max: 700, min: 464 },
     items: 2,
     slidesToSlide: 1, // optional, default to 1.
   },
@@ -40,7 +56,7 @@ const items = [
     description: 'Calibration blocks ensure accurate measurement and standardization in testing.',
   },
   {
-    src: "/ameee/ndtprops.jpg",
+    src: "/ameee/ndtProps.jpg",
     alt: 'NDT Probes',
     description: 'Anti-Spatter Gel for torch nozzle in manual operations.',
   },

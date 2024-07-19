@@ -41,7 +41,7 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
             }}
             className="w-full"
           >
-            <div className="xl:py-16 xs:py-1 text-white w-full xl:text-5xl xs:text-2xl font-extrabold">
+            <div className="xl:py-16 xs:py-1  text-white w-full xl:text-5xl sm:text-2xl font-extrabold">
               {elem.title}
             </div>
             
@@ -61,20 +61,20 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
            
             className="w-full"
           >
-          <div className="leading-relaxed text-white font-medium text-base tracking-wide xs:w-[22rem] xl:w-full text-justify xl:h-40 xs:h-44 italic ">
+          <div className="leading-relaxed text-white xl:font-medium lg:font-medium   sm:text-[14px] xs:text-[13px] xl:text-[18px] lg:text-[18px] text-base tracking-wide xs:w-[17rem] sm:w-[20rem] md:w-[33rem] lg:w-full text-justify xl:h-40 xs:h-44 italic ">
               {elem.desc}
             </div> 
-            <button className='xl:w-[24%] xs:w-[8rem] xs:h-11  btn hover:bg-transparent xl:h-12 pt-1 text-[18px] text-white font-semibold bg-amp_light p-2 border-none rounded-full mx-2  '>
-            <div className='absolute btn1 xl:w-[12rem] xs:w-[11rem] xs:h-[11rem] xs:text-[15px] xs:-top-1  xl:-top-2 xl:-left-4 xs:-left-[30px] h-[11rem] pt-[10px]  xl:text-[18px] text-white font-semibold  '>
+            <button className='xl:w-[23%] lg:w-[18%] xs:w-[7.5rem] xs:h-10 sm:w-[8rem] sm:h-11 btn hover:bg-transparent xl:h-12 pt-1 text-[18px] text-white font-semibold bg-amp_light p-2 border-none rounded-full mx-2  '>
+            <div className='absolute btn1 xl:w-[12rem] xs:w-[11rem] xs:h-[11rem] lg:text-[15px] xs:text-[12px] xs:-top-1  xl:-top-2 xl:-left-4 xs:-left-[30px] h-[11rem] pt-[10px]  xl:text-[18px] text-white font-semibold  '>
           Get Started | +</div>
         </button>
-        <button className='xl:w-[24%] xs:w-[8rem] xs:h-11  btn hover:bg-transparent xl:h-12 pt-1 text-[18px] text-white font-semibold bg-transparent p-2 border rounded-full mx-2  '>
-            <div className='absolute btn1 xl:w-[12rem] xs:w-[11rem] xs:h-[11rem] xs:text-[15px] xs:-top-1  xl:-top-2 xl:-left-4 xs:-left-[30px] h-[11rem] pt-[10px]  xl:text-[18px] text-white font-semibold  '>
+        <button className='xl:w-[23%] lg:w-[18%] xs:w-[7.5rem] xs:h-10 sm:w-[8rem] sm:h-11  btn hover:bg-transparent xl:h-12 pt-1 text-[18px] text-white font-semibold bg-transparent p-2 border rounded-full mx-2  '>
+            <div className='absolute btn1 xl:w-[12rem] xs:w-[11rem] lg:text-[15px] xs:h-[11rem] xs:text-[12px] xs:-top-1  xl:-top-2 xl:-left-4 xs:-left-[30px] h-[11rem] pt-[10px]  xl:text-[18px] text-white font-semibold  '>
           Read More | +
           </div></button>
             </motion.div>
         <div>
-        <div className='flex absolute xl:-mt-3 xs:mt-12  xl:left-[27%] lg:left-[27%] mdl:left-[34%] md:left-[44%] left-0   '> 
+        <div className='flex absolute w-full md:-mt-3 xs:mt-12  xl:left-[28%] lgl:left-[27%] lg:left-[30%] mdl:left-[35%] md:left-[41%] left-0   '> 
                 <span className=" vedio-button ">
             <TiMediaPlay  className=' absolute bg-[#e03202]  h-10 p-1 w-10 rounded-full text-white' />
              </span>
