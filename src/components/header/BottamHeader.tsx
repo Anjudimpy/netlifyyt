@@ -6,6 +6,7 @@ import { CgMenuGridR } from 'react-icons/cg';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { HiDotsVertical } from 'react-icons/hi';
 import { RiArrowDownSLine } from 'react-icons/ri';
+import Link from 'next/link';
 
 
 
@@ -27,8 +28,12 @@ const BottamHeader = () => {
       <div className='flex-col-1 text-amp_blue gap-4 font-bold hidden lgl:flex'>
       
         
-        <span className='mt-2 hover:text-amp_red'>Home</span>
-        <span className='mt-2 hover:text-amp_red'>About</span>
+        <Link href={'/'} className='mt-2 hover:text-amp_red'>Home</Link>
+       
+        <Link href={'/about'} className='mt-2 hover:text-amp_red'>About </Link>
+           
+         
+           
         <span className='mt-2'>
         <select className="outline-none hover:text-amp_red">
   <option className="text-white">

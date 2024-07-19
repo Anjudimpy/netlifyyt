@@ -13,7 +13,7 @@ const WorkProccess = () => {
             <span className='title-element p-0 text-[25px]'><RiServiceFill/></span>
             <h5 className='xl:text-4xl lg:text-4xl sm:text-[25px] xs:text-[25px] font-bold text-white '>Our Work Process</h5>
         </div>
-        <div className= ' xl:py-14 lg:py-14  xl:flex lg:flex justify-between xl:mx-20 lg:mx-20 lg:px-24 xl:px-24 sm:mx-20 w-full'>
+        <div className= ' xl:py-14 lg:py-14  xl:flex lg:flex justify-between xl:mx-20 lg:mx-20 lg:px-24 xl:px-24 xs:py-48 sm:mx-20 xs:mx-[28px] w-full'>
            <WorkProcessCard  title="Emergency case" step='01' icon={ HiArrowTrendingUp}/>
           
            <WorkProcessCard  title="Emergency case" step='02' icon={ HiArrowTrendingUp}/>
