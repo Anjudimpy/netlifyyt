@@ -10,8 +10,10 @@ function PlanningPrice() {
            <span className='title-element'><FaHeart/></span>
            <h5 className='xl:text-4xl lg:text-4xl sm:text-[25px] font-bold text-amp_blue textShadow2'>Our Plan Pricing</h5>
        </div>
-       <div className='xl:py-14 lg:py-14 sm:py-10 xl:px-20 lg:px-20 sm:px-1'>
+       <div className='flex justify-center'>
+       <div className='xl:py-14 lg:py-14 sm:py-10 '>
           <PlanPricingCrad/>
+       </div>
        </div>
       
    </div>

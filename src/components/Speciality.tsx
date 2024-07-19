@@ -12,7 +12,7 @@ const Speciality = () => {
             <span className='title-element p-0 text-[25px]'><TbBrandSlack/></span>
             <h5 className='lg:text-4xl xl:text-4xl xs:text-[25px]  font-bold text-amp_light textShadow2'>What is Our Speciality</h5>
         </div>
-        <div className='xl:py-16 md:py-16 lg:py-16 sm:pb-0 sm:pt-10 xl:px-24 lg:px-16 md:px-12 sm:px-5 xs:px-auto xs:pt-8'>
+        <div className='flex items-center justify-center py-12'>
            <SpecialityList/>
         </div>
    

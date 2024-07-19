@@ -8,7 +8,8 @@ import { IoMdChatboxes } from 'react-icons/io';
 
 const Appointment = () => {
   return (
-    <div className='xl:h-[700px] lg:h-[700px] sm:h-[75rem]  w-full bgimage '>
+    <div className='flex justify-center items-center'>
+      <div className='xl:h-[700px] lg:h-[700px] sm:h-[75rem]  w-full bgimage '>
     <div className='xl:h-[700px] lg:h-[700px] sm:h-[75rem]  w-full bgTransparent py-16'>
     <div className='text-center'>
             <span className='xl:text-[20px] lg:text-[20px] sm:text-[15px] shadow-lg textShadow font-extrabold text-white '>Appointment</span>
@@ -17,15 +18,15 @@ const Appointment = () => {
         </div>
 {/*  form */}
 
-<div>
-    <div className='xl:flex lg:flex sm:inline gap-4  justify-center items-center xl:px-28 lg:px-28  sm:px-4 py-10'>
+<div className='flex justify-center'>
+    <div className='xl:flex lg:flex sm:inline   justify-center items-center  py-10'>
         <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
          className='xl:flex lg:flex sm:m-3 xl:p-3 lg:p-3 outline outline-1 outline-slate-500 rounded-md h-auto  xl:w-[62%] lg:w-[62%] sm:w-[400px] xs:mx-2 xs:w-[300px]'>
            <div className='p-[25px]'>
           <Form>
          <div className='xl:flex'>
          <input 
-  className='sm:w-[343px] xs:w-[238px]   text-white m-2 px-3 h-10 bg-transparent outline outline-1 rounded-md outline-gray-300 placeholder:text-gray-300'
+  className='xl:w-[343px] xs:w-[238px]   text-white m-2 px-3 h-10 bg-transparent outline outline-1 rounded-md outline-gray-300 placeholder:text-gray-300'
   type='text'
   placeholder='First Name'
 />
@@ -90,6 +91,7 @@ placeholder='Enter Message'
 </div>
        
       
+    </div>
     </div>
     </div>
   )
