@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.sha{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid rgba(180, 180, 180, 0.2);
+}
 .bgContact{
   background-image: url('/contactBg.jpg');
   background-size: cover;
