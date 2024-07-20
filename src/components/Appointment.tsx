@@ -26,7 +26,7 @@ const Appointment = () => {
           <Form>
          <div className='xl:flex'>
          <input 
-  className='xl:w-[343px] xs:w-[238px]   text-white m-2 px-3 h-10 bg-transparent outline outline-1 rounded-md outline-gray-300 placeholder:text-gray-300'
+  className='sm:w-[343px] xs:w-[238px]   text-white m-2 px-3 h-10 bg-transparent outline outline-1 rounded-md outline-gray-300 placeholder:text-gray-300'
   type='text'
   placeholder='First Name'
 />

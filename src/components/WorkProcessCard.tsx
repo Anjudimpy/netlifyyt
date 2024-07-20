@@ -13,7 +13,7 @@ const WorkProcessCard = ({title,step, icon: Icon,}:WorkProcessCardProps) => {
 
 
   return (
-    <div className='relative flex  xl:top-60 lg:top-60 sm:top-48 w-full'>
+    <div className='relative flex  xl:top-60 lg:top-60 sm:top-48  '>
      <div className='group  h-[220px] w-[220px]'>
      <div className='absolute  h-[220px] w-[220px]  -left-[15px] -top-[15px] group-hover:animate-slow-spin  processBoder1 group-hover:border-t-4 group-hover:border-[#e71c52ea]  rounded-full'>
      <span className=' absolute group-hover:h-[10px] w-[10px] bg-amp_red rounded-full top-[89px] -right-1 text-white flex justify-center '></span>
