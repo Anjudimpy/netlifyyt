@@ -3,7 +3,7 @@ import React from 'react'
 
 import { GiSuckeredTentacle } from 'react-icons/gi';
 import { GoCheckCircleFill } from "react-icons/go";
-import FunFact from './FunFact';
+import FunFact from '../FunFact';
 
 const AboutBottom = () => {
   return (

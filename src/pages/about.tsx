@@ -1,5 +1,6 @@
-import AboutBottom from '@/components/AboutBottom'
-import AboutTop from '@/components/AboutTop'
+import AboutBottom from '@/components/About/AboutBottom'
+import AboutTop from '@/components/About/AboutTop'
+import Features from '@/components/About/Features'
 import RippleEffect from '@/components/RippleEffect'
 import React from 'react'
 
@@ -9,6 +10,7 @@ const about = () => {
       <AboutTop/>
       <AboutBottom/>
       <RippleEffect/>
+      <Features/>
     </div>
   )
 }
