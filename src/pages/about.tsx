@@ -1,4 +1,5 @@
 import AboutBottom from '@/components/About/AboutBottom'
+import AboutTestimonial from '@/components/About/AboutTestimonial'
 import AboutTop from '@/components/About/AboutTop'
 import Features from '@/components/About/Features'
 import RippleEffect from '@/components/RippleEffect'
@@ -11,6 +12,7 @@ const about = () => {
       <AboutBottom/>
       <RippleEffect/>
       <Features/>
+      <AboutTestimonial/>
     </div>
   )
 }

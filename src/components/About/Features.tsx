@@ -1,11 +1,12 @@
 import React from 'react'
 import { FaHeartbeat } from 'react-icons/fa'
 import { GoCheckCircleFill } from "react-icons/go";
-import { GiSuckeredTentacle } from 'react-icons/gi';
+import { GiSpray, GiSuckeredTentacle, GiTripwire } from 'react-icons/gi';
 import Image from 'next/image';
 import { DiMootoolsBadge } from "react-icons/di";
 import { RiToolsLine } from 'react-icons/ri';
 import { CiSettings } from 'react-icons/ci';
+import { PiPackageLight } from 'react-icons/pi';
 
 
 const Features = () => {
@@ -79,15 +80,15 @@ const Features = () => {
         <div className='flex'>
             <Image src={'/mech_pro.jpg'} width={1000} height={1000} alt='' className='h-[25rem] w-[25rem] rounded-full'/>
            </div>
-           <DiMootoolsBadge className='absolute flex justify-center top-28 left-0 bg-white text-yellow-500  h-[35px] w-[35px] rounded-full sha'/>
+           <GiTripwire className='absolute p-1.5 flex justify-center top-20 left-3 bg-white text-yellow-500  h-[35px] w-[35px] rounded-full sha'/>
 <FaHeartbeat className='absolute p-2 flex justify-center  right-0 top-28 bg-white text-yellow-500  h-[35px] w-[35px] rounded-full sha'/>
-<DiMootoolsBadge className='absolute flex justify-center  bottom-5 right-16 bg-white text-yellow-500  h-[35px] w-[35px] rounded-full sha'/>
+<PiPackageLight className='absolute p-1 flex justify-center  bottom-5 right-16 bg-white text-yellow-500  h-[35px] w-[35px] rounded-full sha'/>
 </div>
 
-<DiMootoolsBadge className='absolute flex justify-center  left-16 bg-white text-yellow-500  h-[35px] w-[35px] rounded-full sha'/>
+<DiMootoolsBadge className='absolute flex justify-center  left-32 top-0 bg-white text-yellow-500  h-[35px] w-[35px] rounded-full sha'/>
 <RiToolsLine className='absolute p-1 flex justify-center  right-16 bg-white text-yellow-500  h-[35px] w-[35px] rounded-full sha'/>
 <CiSettings className='absolute p-1 flex justify-center bottom-3  left-28 bg-white text-yellow-500  h-[35px] w-[35px] rounded-full sha'/>
-<DiMootoolsBadge className='absolute flex justify-center bottom-[40%]  -left-4 bg-white text-yellow-500  h-[35px] w-[35px] rounded-full sha'/>
+<GiSpray className='absolute flex p-1 justify-center bottom-[11rem]  -left-4 bg-white text-yellow-500  h-[35px] w-[35px] rounded-full sha'/>
 
 
         </div>

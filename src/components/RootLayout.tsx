@@ -13,7 +13,8 @@ const RootLayout = ( {children}:Props) => {
 <Header/>
 <BottamHeader/>
 {children}
-<Footer/>
+<div className="relative z-[1]">
+<Footer/></div>
 </>
   );
 };

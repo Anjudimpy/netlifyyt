@@ -39,7 +39,7 @@ const RippleEffect = () => {
         
       }}
     >
-        <div className="absolute top-0 left-0 w-full h-[700px] bg-black opacity-40"></div>
+        <div className="absolute top-0 left-0 w-full xl:h-[700px] lg:h-[700px] sm:h-[480px] xs:h-[430px] bg-black opacity-40"></div>
     
 
 {/* contain */}
