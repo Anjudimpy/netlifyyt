@@ -24,7 +24,7 @@ const Description = ({ clickNext, clickPrev, activeImgIndex }: Props) => {
             : 'hidden'
         }`} key={idx}>
           <motion.div
-            key={`${elem.title}-${activeImgIndex}`} // Ensure unique key for each animation trigger
+            key={`${elem.title}-${activeImgIndex}`} 
             initial={{
               opacity: 0,
               scale: 0.8,

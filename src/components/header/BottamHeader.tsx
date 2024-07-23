@@ -65,7 +65,8 @@ const BottamHeader = () => {
         <div className='group dropdown relative font-bold cursor-pointer mt-2 h-full nav-link  hover:text-amp_red'>
         <Link href={'/shop'} className='flex'><span>Shop</span><span><RiArrowDownSLine className='mt-1'/></span></Link>
       <div className='absolute hidden cursor-pointer bg-white h-auto w-[13rem] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 -bottom-[10rem] group-hover:flex flex-col'>
-        <div className='p-2 dropdown-content '>Cart</div><hr></hr>
+      <Link href={'/shop'}><div className='p-2 dropdown-content '>Shop</div></Link><hr></hr>
+        {/* <div className='p-2 dropdown-content '>Cart</div><hr></hr> */}
         <div className='p-2 dropdown-content '>Check Out</div><hr></hr>
         <div className='p-2 dropdown-content '>My Account</div>
         </div>
