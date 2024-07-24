@@ -24,7 +24,7 @@ const shop = ({productData}:Props) => {
 
  export const getServerSideProps = async () => {
 
-  const res =await fetch("http://localhost:4001/product");
+  const res =await fetch("https://api-json-7y49.onrender.com/product");
   const productData= await res.json();
   return{props: {productData}};
  }
