@@ -97,7 +97,7 @@ const CarouselItem: React.FC<CarouselItemProps> = ({ src, alt,quote, textColor, 
           <FaQuoteLeft className=' text-[22px] '/>
         </div>
       <div className="  h-[15.4rem] w-[25.3rem] sha  bg-white">
-      <div className=" group h-[15.4rem] w-[25.3rem] text-amp_light  hover:bg-[#f05780e8] hover:text-white hover:transition-all hover:duration-500 hover:ease-in-out" style={{ backgroundColor: finalBgColor, color: finalTextColor }}>
+      <div className=" group h-[15.4rem] w-[25.3rem] text-amp_light   hover:bg-[#f05780e8] hover:text-white hover:transition-all hover:duration-500 hover:ease-in-out" style={{ backgroundColor: finalBgColor, color: finalTextColor }}>
        
         <div className="px-[25px] py-[40px] ">
           <div className='text text-justify py-2 text-[16px] font-mono'>

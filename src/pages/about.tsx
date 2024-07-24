@@ -7,7 +7,7 @@ import React from 'react'
 
 const about = () => {
   return (
-    <div>
+    <div className='bg-white'>
       <AboutTop/>
       <AboutBottom/>
       <RippleEffect/>
