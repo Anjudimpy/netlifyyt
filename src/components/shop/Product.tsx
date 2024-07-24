@@ -1,13 +1,30 @@
 import React from "react";
 import Image from "next/image";
-import { images } from "@/utils/productStore"; 
+import { images } from "@/utils/productStore";
+import { ProductProps } from "../../../type"; 
 
-const Products = () => {
+const Products = ({productData}:any) => {
 
 
   return (
     <div className="w-full   h-full my-20">
-      <div className=" w-full grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2  xl:grid-cols-4 gap-5">
+    
+    {productData.map(({
+      id,
+      title,
+      price,
+      description,
+      category,
+      image
+      }:ProductProps)=>(
+        <div key={id}>
+          <div>
+            <Image width={300} height={300} src={image} alt="hg"/>
+          </div>
+        </div>
+      ))}
+
+      {/* <div className=" w-full grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2  xl:grid-cols-4 gap-5">
         {images.map((pic, idx) => (
           <div className="w-full"
              key={idx}
@@ -35,7 +52,7 @@ const Products = () => {
            
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
