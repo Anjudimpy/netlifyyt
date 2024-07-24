@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import { images } from "@/utils/productStore"; 
-import { useDispatch } from "react-redux";
 
 const Products = () => {
+
 
   return (
     <div className="w-full   h-full my-20">
@@ -29,10 +29,7 @@ const Products = () => {
             <p className="px-3 "><span className="font-semibold">Rs. </span>{pic.price}</p>
            <p className="text-gray-500 text-[12px] px-3 text-justify">{pic.desc}</p>
            <div className="w-full flex justify-center">
-           <button 
-           
-           className="bg-amp_blue h-10 w-48 mt-[30px] btn rounded-none hover:bg-amp_red cursor-pointer  text-white flex justify-center py-2 font-semibold"> 
-           Add To Cart</button>
+           <div className="bg-amp_blue h-10 w-48 mt-[30px] cursor-pointer btn hover:bg-amp_red text-white flex justify-center py-2 font-semibold"> Add To Cart</div>
            </div>
            </div>
            

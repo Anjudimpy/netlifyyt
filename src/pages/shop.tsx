@@ -11,7 +11,7 @@ const shop = () => {
     <div className='flex justify-center w-full bg-gray-100 '>
     
    <div>
-   <Products  productData={productData} />
+   <Products/>
    </div>
     </div>
   )
