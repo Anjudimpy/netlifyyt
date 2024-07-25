@@ -49,7 +49,7 @@ const Header = () => {
 </select>
 
    </span>
-   {userInfo?<div className='flex h-10 md:inline-flex items-center  gap-1 relative cursor-pointer pl-8 hover:text-amp_red hover:border p-2 rounded-sm duration-300 '>
+   {/* {userInfo?<div className='flex h-10 md:inline-flex items-center  gap-1 relative cursor-pointer pl-8 hover:text-amp_red hover:border p-2 rounded-sm duration-300 '>
           <img src={userInfo.image} alt='user Image' className='w-8 h-8 rounded-full object-cover'/>
           <div className='text-xs text-gray-100 flex flex-col justify-between'>
             <p className='text-white font-bold'>{userInfo.name}</p>
@@ -60,7 +60,7 @@ const Header = () => {
             <span className=' text-2xl items-center justify-center  '><FaCircleUser/></span>
             <p className=' font-bold items-center justify-center'>Sign In </p>
             <span><IoMdArrowDropdown/></span>  </div>
-            }
+            } */}
    <span className='absolute left-[252px]'>  <IoMdArrowDropdownCircle className='text-4xl text-red-500'/></span>
         </div>
 

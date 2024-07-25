@@ -19,7 +19,7 @@ const CartPayment = () => {
         setTotalAmount(amount)
     },[productData])
 
-    //Stripe Payment Gatre
+   
     const stripePromise=loadStripe(
        process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!
     )
