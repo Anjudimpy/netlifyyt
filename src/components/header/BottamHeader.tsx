@@ -7,10 +7,18 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { HiDotsVertical } from 'react-icons/hi';
 import { RiArrowDownSLine } from 'react-icons/ri';
 import Link from 'next/link';
+import {useDispatch, useSelector } from 'react-redux';
+import {stateProps} from "../../../type";
+
 
 
 
 const BottamHeader = () => {
+  const dispatch = useDispatch();
+  const {productData, favoriteData, userInfo}= useSelector(
+    (state:stateProps)=>state.next 
+  );
+
   return (
     <div className='flex  font-serif flex-col-1 bg-slate-50 w-full sticky top-0 z-50 h-[100px]  md:px-11 xl:px-11 lg:px-11 justify-between items-center'>
       <div>
@@ -76,9 +84,12 @@ const BottamHeader = () => {
         <span className='font-bold'>
         <IoMdSearch className="p-2  shadow-md shadow-red-300 text-[30px] h-10 w-10 font-bold rounded-full transition duration-500 ease-in-out hover:bg-amp_red hover:text-white" />
         </span>
-        <span className='font-bold'>
+        <Link href={"/cart"} className=' relative font-bold'>
          <IoMdCart className="p-2 shadow-red-300 shadow-md text-[30px] h-10 w-10 font-bold rounded-full transition duration-500 ease-in-out hover:bg-amp_red hover:text-white"/>
-        </span>
+         <span className='absolute text-amp_red text-sm -top-1 right-[13px]'>
+         {productData ? productData.length : 0}
+         </span>
+        </Link>
         <span className='font-bold mt-1'>
          <CgMenuGridR className='text-[38px] hover:text-amp_red '/>
         </span>

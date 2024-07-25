@@ -24,7 +24,7 @@ export default function Home() {
 useEffect(()=>{
   
   AOS.init({
-    // Global settings:
+  
     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
     startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
     initClassName: 'aos-init', // class applied after initialization
@@ -48,7 +48,7 @@ useEffect(()=>{
 },[])
 
   return (
-    <main className="w-full overflow-hidden">
+    <main className="w-full overflow-hidden bg-white">
       <div className="xl:h-[700px] xs:h-[500px] bgimage relative z-[1]">
         
         <Slider/>
@@ -60,7 +60,9 @@ useEffect(()=>{
          <Speciality/>
          <Appointment/>
          <PlanningPrice/>
-         <RippleEffect/>
+      <div className="bg-white">
+      <RippleEffect/>
+      </div>
          <ContactBg/>
          <div className="relative z-[1]">
          <WorkProccess/>
